@@ -1,0 +1,11 @@
+.search-content{
+    padding-top: 10%;
+    margin: 0 auto;
+    text-align: center;
+}
+.search{
+    max-width: 40%;
+    height: auto;
+    margin: 0 auto;
+    text-align: left;
+}
