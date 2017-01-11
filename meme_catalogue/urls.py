@@ -18,6 +18,7 @@ from django.contrib import admin
 from meme_search import views
 
 urlpatterns = [
+    url(r'^search-keyword/', views.search),
     url(r'^$', views.home, name='home'),
     url(r'^admin/', admin.site.urls),
 
